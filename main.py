@@ -12,6 +12,14 @@ st.write(
     })
 )
 
+chart_df = pd.DataFrame(
+    np.random.randn(20, 3),
+    columns=['a', 'b', 'c']
+)
+st.line_chart(chart_df)
+
+
+
 """
 # this is explain.
 Magic Command 
